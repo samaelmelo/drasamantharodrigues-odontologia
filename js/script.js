@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (targetElement) {
                 if(redimention < 767){
                     window.scrollTo({
-                        top: targetElement.offsetTop - 280,
+                        top: targetElement.offsetTop - 300,
                         behavior: 'smooth'
                     })
                 } else {
@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Destacar item de menu ativo com base na posição de rolagem
     window.addEventListener('scroll', function() {
         const scrollPosition = window.scrollY;
-                    console.log("passando por aqui")
         
         document.querySelectorAll('section').forEach(section => {
             const sectionTop = section.offsetTop - 150;

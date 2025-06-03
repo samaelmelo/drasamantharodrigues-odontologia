@@ -145,11 +145,14 @@ header {
     
 }
 
+
+
 .about-img-container {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
 }
 
 /* Services Section */
@@ -204,6 +207,7 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
+    padding-top: 0rem !important;
 }
 
 .testimonials-container{
@@ -418,7 +422,8 @@ header {
 
 .box-image-footer {
     height: 10rem;
-    width: 25rem;
+    max-width: 25rem;
+    min-width: 15rem;
 }
 
 .box-image-footer  img {
@@ -472,6 +477,9 @@ header {
     .section-title {
         font-size: 2rem;
     }
+    .box-image-footer{
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -505,9 +513,12 @@ header {
         background: none;
     }
 
-    .box-image-footer{
-        display: none;
-    }
+    .box-image-hero img {
+    width: 100%;
+}
+
+
+   
 
 }
 
