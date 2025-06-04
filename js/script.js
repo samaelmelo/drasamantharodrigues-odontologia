@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
             if (targetElement) {
                 if(redimention < 767){
                     window.scrollTo({
-                        top: targetElement.offsetTop - 300,
+                        top: targetElement.offsetTop - 350,
                         behavior: 'smooth'
                     })
                 } else {
                     window.scrollTo({
-                        top: targetElement.offsetTop - 130,
+                        top: targetElement.offsetTop - 140,
                         behavior: 'smooth'
                     });
 
