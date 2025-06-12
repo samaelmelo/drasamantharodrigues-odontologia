@@ -1,4 +1,8 @@
 const treatments = [
+   {
+    title: "Implantes Dentários",
+    description: "Substituição fixa de dentes perdidos com materiais biocompatíveis, garantindo estética, conforto e função mastigatória com segurança e naturalidade."
+  },
   {
     title: "Extração Dentária",
     description: "Procedimento realizado com técnicas modernas e minimamente invasivas para remoção de dentes comprometidos, garantindo conforto e rápida recuperação."
@@ -20,7 +24,7 @@ const treatments = [
     description: "Tratamento estético para deixar seus dentes mais brancos e brilhantes, utilizando produtos de alta qualidade e técnicas seguras para resultados naturais."
   },
   {
-    title: "Restaurações com Resina Composta",
+    title: "Restaurações",
     description: "Recuperação estética e funcional com materiais de alta qualidade, devolvendo a aparência natural dos dentes com resultados duradouros."
   },
   {
